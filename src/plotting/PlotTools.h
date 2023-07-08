@@ -1,5 +1,5 @@
 #pragma once
-#include "ChiaConsts.h"
+#include "OrchidConsts.h"
 #include "util/KeyTools.h"
 
 #define BB_PLOT_PROOF_X_COUNT 32

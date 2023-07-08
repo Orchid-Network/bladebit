@@ -2,7 +2,7 @@
 
 struct AddrHashTestPair { const char* hash; const char* address; };
 
-const AddrHashTestPair TestMainnetAddress[500] = {
+const AddrHashTestPair TestVanillanetAddress[500] = {
     { "8a0e1ed4c0872349f48c74d4ba4d08f3f4420e8f0984d5f7c51f8e6925a624b8", "xch13g8pa4xqsu35nayvwn2t5ngg706yyr50pxzdta79r78xjfdxyjuq9esszx" },
     { "7014f9516b1e944db6559743b8c666f5bf1ad42a6aa6ee8abd3d0d6c85f7f965", "xch1wq20j5ttr62ymdj4japm33nx7kl344p2d2nwaz4a85xkep0hl9js42uksa" },
     { "41b875f70355be93a150b88e436e14f8ccf799ca3baa41587b1e19d47ba5f699", "xch1gxu8tacr2klf8g2shz8yxms5lrx00xw28w4yzkrmrcvag7a976vs7mqrm8" },

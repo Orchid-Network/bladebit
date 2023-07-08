@@ -5,7 +5,7 @@
 #include "threading/MTJob.h"
 #include "plotting/PlotTypes.h"
 #include "plotting/Tables.h"
-#include "ChiaConsts.h"
+#include "OrchidConsts.h"
 
 struct GlobalPlotConfig;
 

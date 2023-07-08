@@ -1,6 +1,6 @@
 #pragma once
 #include "util/BitView.h"
-#include "ChiaConsts.h"
+#include "OrchidConsts.h"
 #include "plotting/PlotTools.h"
 
 #define PROOF_X_COUNT       64
