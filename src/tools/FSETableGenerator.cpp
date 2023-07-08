@@ -152,7 +152,7 @@ void DumpFSETables( FILE* file, bool compression )
 
 
 ///
-/// Takem from orchidpos
+/// Takem from chiapos
 ///
 std::vector<short> CreateNormalizedCount(double R)
 {

@@ -1,7 +1,7 @@
 #pragma once
 #include "util/Util.h"
 
-// Orchidpos-compatible bitreader
+// Chiapos-compatible bitreader
 class CPBitReader
 {
 public:
@@ -319,7 +319,7 @@ public:
         return value & ( 0xFFFFFFFFFFFFFFFFull >> (64 - bitCount) );
     }
 
-    // Read in BigEndian mode for compatibility w/ orchidpos
+    // Read in BigEndian mode for compatibility w/ chiapos
     //-----------------------------------------------------------
     inline static uint64 ReadBits64BE( const uint32 bitCount, const uint64* fields, const uint64 position )
     {
@@ -505,7 +505,7 @@ public:
     }
 
     //-----------------------------------------------------------
-    // Orchidpos compatible method. Disabling this here for now since this makes it hard to use in a multi-threaded manner
+    // Chiapos compatible method. Disabling this here for now since this makes it hard to use in a multi-threaded manner
     // dstOffset: Offset in bits as to where to start writing in fields
     //-----------------------------------------------------------
     inline static void WriteBits64BE( uint64* fields, const uint64 dstOffset, const uint64 value, const uint32 bitCount )
